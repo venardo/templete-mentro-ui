@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Metro, a sleek, intuitive, and powerful framework for faster and easier web development for Windows Metro Style.">
+    <meta name="keywords" content="HTML, CSS, JS, JavaScript, framework, metro, front-end, frontend, web development">
+    <meta name="author" content="Sergey Pimenov and Metro UI CSS contributors">
+    <title>Traveling Yuk</title>
+    <link rel="shortcut icon" type="image/icon" href="img/l.png" />
+    <link href="Metro-UI-CSS-master/docs/css/metro.css" rel="stylesheet">
+    <link href="Metro-UI-CSS-master/docs/css/metro-icons.css" rel="stylesheet">
+    <link href="Metro-UI-CSS-master/docs/css/metro-responsive.css" rel="stylesheet">
+
+
+</head>
+<body style="background:#ccc;">
+  <!--bagian menu-->
+  <div class="app-bar" data-role="appbar">
+    <a class="app-bar-element branding" style="font-family:serif;"><font color="#ffd22d">TRAVELING</font>YUK</a>
+      <ul class="app-bar-menu">
+       <li><a href="">Home</a></li>
+        <li data-flexorder="2"><a href="">About</a></li>
+         <li data-flexorder="1"><a href="">Plans</a></li>
+          <li>
+           <a href="" class="dropdown-toggle">Destinasi</a>
+            <ul class="d-menu" data-role="dropdown">
+             <li><a href="">Bali</a></li>
+               <li><a href="">Yogyakarta</a></li>
+                <li><a href="">Malang</a></li>
+                 <li><a href="">NTT</a></li>
+                               </ul>
+                          </li>
+                      </ul>
+                     <div class="app-bar-pullbutton automatic"></div>
+                    <ul class="app-bar-menu place-right" data-flexdirection="reverse">
+                   <li>
+                 <div class="input-control text">
+                <input type="text" placeholder="Search...">
+               </div>
+              </li>
+           </ul>
+          </div>
+<!--akhir menu-->
+
+<!--pembuatan carousel-->
+<div class="carousel" data-role="carousel">
+  <div class="slide"></div>
+   <img src="img/pan.jpeg">
+  <div class="slide"><img src="img/111.jpeg"></div>
+</div>
+<!--akhir karousel-->
+
+<!--pembuatan grid-->
+
+      <div class="grid">
+        <h2>Where Are You Going ?</h2>
+          <div class="row cells3">
+              <div class="cell">
+                <div class="image-container">
+                    <div class="frame">
+                        <img src="img/gb1.jpeg" >
+                        <div class="rating"  data-role="rating"></div>
+                    </div>
+                    <div class="image-overlay">
+                        <p>Jatiluwih Bali</p>
+                        <p>want to enjoy the atmosphere of the still quiet, beautiful and natural countryside on the island of the gods?
+                         you can visit Jatiluwih bali. tourist attractions in the western part of bali city</p>
+                    </div>
+                </div>
+              </div>
+              <div class="cell">
+                <div class="image-container">
+                    <div class="frame">
+                        <img src="img/bali.jpg" >
+                        <div class="rating"  data-role="rating"></div>
+                    </div>
+                    <div class="image-overlay">
+                        <p>Nusa Penida Beach</p>
+                        <p>Located in Klungkung sub-district of Bali, is a small island located
+                            in the southeast of the island of Bali, Nusa Penida Island is also there is a beach
+                            beautiful and unspoiled places of conservation of marine animals.</p>
+                    </div>
+                </div>
+              </div>
+              <div class="cell">
+                <div class="image-container">
+                    <div class="frame">
+                        <img src="img/bromo.jpg" >
+                        <div class="rating"  data-role="rating"></div>
+                    </div>
+                    <div class="image-overlay">
+                        <p>Mount Bromo</p>
+                        <p>is an active volcano in East Java, Indonesia. This mountain has
+                           an altitude of 2,329 meters above sea level and located within four districts,
+                           namely Probolinggo Regency, Pasuruan Regency, Lumajang Regency, and Malang Regency.</p>
+                    </div>
+                </div>
+              </div>
+          </div>
+          <div class="row cells3">
+              <div class="cell">
+                <div class="image-container">
+                    <div class="frame">
+                        <img src="img/kelingkingbeack.jpg" >
+                        <div class="rating"  data-role="rating"></div>
+                    </div>
+                    <div class="image-overlay">
+                        <p>kelingking Beach</p>
+                        <p> there is a famous spot for diving the Manta Point. In the depths below the Manta sea
+                           This point visitors can dive and watch the Manta fish (the largest stingray in the world)
+                            swim free with them.</p>
+                    </div>
+                </div>
+                </div>
+              <div class="cell">
+                <div class="image-container">
+                    <div class="frame">
+                        <img src="img/padarisland.jpg" >
+                        <div class="rating"  data-role="rating"></div>
+                    </div>
+                    <div class="image-overlay">
+                        <p>Pandar Island</p>
+                        <p>Padar Island is the third largest island in Komodo National Park, after the Island
+                           Komodo and Rinca Islands. The island is relatively closer to Rinca Island than to Komodo Island,
+                           which is separated by the Leech Strait</p>
+                    </div>
+                </div>
+              </div>
+              <div class="cell">
+                <div class="image-container">
+                    <div class="frame">
+                        <img src="img/rinjani.jpg" >
+                        <div class="rating"  data-role="rating"></div>
+                    </div>
+                    <div class="image-overlay">
+                        <p>Rinjani Mount</p>
+                        <p>Mount Rinjani is a mountain located on the island of Lombok, West Nusa Tenggara.
+                            The mountain is the second highest volcano in Indonesia with altitude
+                             3,726 m above sea level and located on ...</p>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </div>
+<!--akhir grid-->
+
+<!--pembuatan presenter-->
+          <div class="presenter" data-role="presenter" data-height="220" data-easing="swing">
+              <div class="scene">
+                  <div class="act bg-pink fg-white">
+                      <img src="img/br.jpg" class="actor" data-position="10,10" style="height: 200px">
+                      <h1 class="actor" data-position="1,350">Borobudur temple</h1>
+                      <p class="actor" data-position="80,350">Borobudur is a Buddhist temple located in Borobudur, Magelang, Central Java, Indonesia. This temple is located at approximately 100 km to the southwest of Semarang, 86 km to the west ...</p>
+                      <a class="actor button warning" data-position="150,350">READMORE</a>
+                  </div>
+                  <div class="act bg-steel fg-white">
+                        <img src="img/ki.jpg" class="actor" data-position="10,10" style="height: 200px">
+                        <h1 class="actor" data-position="1,350" >Kawah Ijen</h1>
+                        <p class="actor" data-position="80,350" >Mount Ijen is an active volcano located on the border between Banyuwangi and Bondowoso districts, East Java, Indonesia. This mountain has an altitude of 2344 mdpl and is located side by side with Mount Merapi.</p>
+                        <a class="actor button primary" data-position="150,350">READMORE</a>
+                    </div>
+                    <div class="act bg-darkCyan fg-white">
+                        <img src="img/ot.jpg" class="actor" data-position="10,10" style="height: 200px">
+                        <h1 class="actor" data-position="1,350" >Ombah Tujuh Spot Guide</h1>
+                        <p class="actor" data-position="80,350" >Ombak Tujuh is definitely the big wave spot, capable of holding swells up to 20ft (7m). The coral ledge protrudes into deep water, forcing the waves to jack up suddenly,</p>
+                        <a class="actor button success" data-position="150,350">READMORE</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!--akhir presenter-->
+
+
+<div class="wrapper">
+
+      <div id="copyright" class="hoc clear">
+      <p class="fl_left">copyright&copy; 2017-All Rights Reserved</p>
+      <p class="fl_right">Template By
+      <a href="https://github.com/venardo"> <font color="#ffd22d">Rahmat</font></a>
+      </p>
+    </div>
+</div>
+
+<!--scrip rating-->
+<script>
+    $(function(){
+        $("#rating").rating();
+    });
+</script>
+<!--end rating-->
+
+<!--scrip carousel-->
+      <script>
+          $(function(){
+              $("#carousel").carousel();
+          });
+      </script>
+      <!--end scrip carousel-->
+      <script src="Metro-UI-CSS-master/docs/js/jquery-2.1.3.min.js"></script>
+      <script src="Metro-UI-CSS-master/docs/js/metro.js"></script>
+      <script src="Metro-UI-CSS-master/docs/js/ga.js"></script>
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+</body>
+</html>
