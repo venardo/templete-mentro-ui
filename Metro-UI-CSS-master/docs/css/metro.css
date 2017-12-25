@@ -5992,7 +5992,7 @@ div.square-button.big-button {
   height: 2.125rem;
   position: relative;
   vertical-align: middle;
-  margin: .325rem 0;
+  margin: .325rem 16px;
   line-height: 1;
 }
 .input-control[data-role=select] {
